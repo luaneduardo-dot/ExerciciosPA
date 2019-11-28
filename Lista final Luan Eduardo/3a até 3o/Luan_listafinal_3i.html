@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+       
+         repeticao =1;
+         resultado=1;
+         par=0;
+         impar=0;
+
+         while(repeticao<=10)
+         {
+            number= parseFloat(prompt("digite 10 numeros inteiros"));
+          resultado=number%2;
+          if(resultado==0)
+          {
+              par++;
+
+          }
+          else{
+              impar++;
+          }
+            repeticao++;
+         }
+         document.write(par +   "  numeros par"  + "<br/>" + impar  +       "  numeros impares "   );
+        
+        
+        
+        </script>
+</body>
+</html>
